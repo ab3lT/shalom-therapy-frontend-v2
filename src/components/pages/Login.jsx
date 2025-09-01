@@ -77,7 +77,7 @@ const Login = () => {
           {/* Demo credentials badge */}
           <div className="mt-4 inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800 backdrop-blur-sm border border-blue-200">
             <Sparkles className="w-4 h-4 mr-1 text-blue-600" />
-            Demo: admin / admin123
+            Demo: admin / password
           </div>
         </div>
 

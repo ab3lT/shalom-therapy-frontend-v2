@@ -7,12 +7,12 @@ import Header from './components/layout/Header'
 import Sidebar from './components/layout/Sidebar'
 import Login from './components/pages/Login'
 import Dashboard from './components/pages/Dashboard'
-// import Branches from './components/pages/Branches'
-// import Customers from './components/pages/Customers'
+import Branches from './components/pages/Branches'
+import Customers from './components/pages/Customers'
 import Services from './components/pages/Services'
-// import Employees from './components/pages/Employees'
-// import Bookings from './components/pages/Bookings'
-// import Awards from './components/pages/Awards'
+import Employees from './components/pages/Employees'
+import Bookings from './components/pages/Bookings'
+import Awards from './components/pages/Awards'
 import GiftCards from './components/pages/GiftCards'
 import { useAuth } from './hooks/useAuth'
 import './App.css';
@@ -58,22 +58,22 @@ const AppContent = () => {
                 </ProtectedRoute>
               } 
             />
-            {/* <Route 
+            <Route 
               path="/branches" 
               element={
                 <ProtectedRoute>
                   <Branches />
                 </ProtectedRoute>
               } 
-            /> */}
-            {/* <Route 
+            />
+            <Route 
               path="/customers" 
               element={
                 <ProtectedRoute>
                   <Customers />
                 </ProtectedRoute>
               } 
-            /> */}
+            />
             <Route 
               path="/services" 
               element={
@@ -82,30 +82,30 @@ const AppContent = () => {
                 </ProtectedRoute>
               } 
             />
-            {/* <Route 
+            <Route 
               path="/employees" 
               element={
                 <ProtectedRoute>
                   <Employees />
                 </ProtectedRoute>
               } 
-            /> */}
-            {/* <Route 
+            />
+            <Route 
               path="/bookings" 
               element={
                 <ProtectedRoute>
                   <Bookings />
                 </ProtectedRoute>
               } 
-            /> */}
-            {/* <Route 
+            />
+            <Route 
               path="/awards" 
               element={
                 <ProtectedRoute>
                   <Awards />
                 </ProtectedRoute>
               } 
-            /> */}
+            />
             <Route 
               path="/gift-cards" 
               element={
