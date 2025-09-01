@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your custom styles here */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Dark mode styles */
+.dark {
+  color-scheme: white;
+}
+
+/* Add this to your index.css as a temporary fix */
+.bg-blue-600 { background-color: #2563eb; }
+.hover\:bg-blue-700:hover { background-color: #1d4ed8; }
+.text-white { color: #fff; }
+.font-medium { font-weight: 500; }
+.rounded-lg { border-radius: 0.5rem; }
+.px-4 { padding-left: 1rem; padding-right: 1rem; }
+.py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+/* Add more classes as needed */
