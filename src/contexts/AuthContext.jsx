@@ -59,12 +59,12 @@ export const AuthProvider = ({ children }) => {
       dispatch({ type: 'SET_LOADING', payload: true })
       const response = await api.login(credentials)
       
-      // Assuming the API returns token and user info
-      const user = { username: credentials.userName, role: 'ADMIN' } // Mock user data
+      
+      const user = { username: credentials.userName, role: 'ADMIN' } 
       dispatch({ 
         type: 'LOGIN', 
         payload: { 
-          token: response.token || 'mock-token', 
+          token: response.token || '', 
           user 
         } 
       })
